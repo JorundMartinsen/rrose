@@ -1,5 +1,5 @@
 {
-  "name": "rrose",
+  "name": "@joerundMartinsen/rrose",
   "version": "0.2.0",
   "description": "Rrose: A Leaflet Plugin for Edge Cases",
   "main": "leaflet.rrose-src.js",
