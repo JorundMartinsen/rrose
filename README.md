@@ -12,7 +12,7 @@ In your project, drop `leaflet.rrose-src.js` alongside `leaflet-src.js`, `leafle
 
 
 ```javascript
-import L from '@jorundmartinsen\\rrose'
+import L from '@jorundmartinsen\rrose'
 
 onEachFeature: function(feature,layer){
   layer.on('mouseover mousemove', function(e){
@@ -24,7 +24,6 @@ onEachFeature: function(feature,layer){
   layer.on('mouseout', function(e){ rrose_map.closePopup() });
 }
 
-...
 ```
 
 ### About positions
