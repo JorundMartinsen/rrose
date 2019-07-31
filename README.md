@@ -6,13 +6,13 @@ Rrose is a plugin for the Leaflet JavaScript Mapping Library. It's useful when y
 
 ### How to use it
 
-In your project, drop `leaflet.rrose-src.js` alongside `leaflet-src.js`, `leaflet.rrose.css` alongside `leaflet.css`. You can also install Rrose via [bower](http://bower.io/) or [npm](http://npmjs.com) `npm i @joerundmartinsen\rrose`. Then, instead of instantiating a new `L.Popup` object, instantiate a new `L.Rrose` object:
+In your project, drop `leaflet.rrose-src.js` alongside `leaflet-src.js`, `leaflet.rrose.css` alongside `leaflet.css`. You can also install Rrose via [bower](http://bower.io/) or [npm](http://npmjs.com) `npm i @jorundmartinsen\rrose`. Then, instead of instantiating a new `L.Popup` object, instantiate a new `L.Rrose` object:
 
 
 
 
 ```javascript
-...
+import L from '@jorundmartinsen\\rrose'
 
 onEachFeature: function(feature,layer){
   layer.on('mouseover mousemove', function(e){
