@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "RRose: A Leaflet Plugin for Edge Cases",
   "main": "leaflet.rrose-src.js",
+  "types": "leaflet.rrose-src.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/JorundMartinsen/rrose#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.5.0",
+    "leaflet": "^1.5.1"
   }
 }
